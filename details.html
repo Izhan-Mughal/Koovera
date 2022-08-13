@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <script src="https://kit.fontawesome.com/b690895109.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <title>Koovera</title>
+</head>
+<style>
+
+</style>
+
+<body>
+    <section class="header   fixed-top">
+        <div class="container-fluid  bg-white pt-3">
+            <!-- <div
+                class="container d-flex justify-content-lg-end bg-white justify-content-center align-items-center">
+                <p class="text-gary normal-font mb-0 mx-2">
+                    Sign in / Login
+                </p>
+                <img src="assets/images/playstore.png" class="img-fluid" alt="">
+            </div> -->
+
+
+        </div>
+        <nav class="navbar pt-0   navbar-expand-lg navbar-light bg-light border_bottom_izhan">
+            <div class="container-fluid  justify-content-start gap-3 align-items-end">
+                <button class="navbar-toggler toggler_11 py-0" onclick="myFunction()" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand me-0 py-0" href="index.html">
+                    <img src="./assets/images/Logo.png" class="img_fluid11" alt="">
+                </a>
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto text-center mb-2 mb-lg-0 py-lg-0 py-3">
+                        <li class="nav-item">
+                            <a class="nav-link active sans  fw-bolder" aria-current="page" href="#">MEN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sans fw-bolder" href="Details.html">WOMEN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sans fw-bolder" href="Filter.html">KIDS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sans fw-bolder" href="#">BEAUTY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sans fw-bolder" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sans fw-bolder" href="#">FOOTWEAR</a>
+                        </li>
+
+
+                    </ul>
+                    <form class="d-lg-flex d-none justify-content-center mx-lg-2">
+                        <div class="btn-search">
+                            <input class="form-control me-2" class="btn-search" type="search" placeholder="Search"
+                                aria-label="Search">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+
+                    </form>
+                    <div class="d-lg-flex d-none gap-3  justify-content-center mt-lg-0 mt-2 cart-icons">
+
+                        <span>
+
+                            <div class="dropdown">
+                                <i class="far fa-heart"></i>
+                                <div class="dropdown-content py-3">
+                                    <div class="d-flex justify-content-center text-center ">
+                                        <button class="btn btn-outline-primary w-75 border_custom_sign">Sign In</button>
+
+
+                                    </div>
+                                    <hr class="w-100 my-2">
+                                    <div class="d-flex justify-content-center text-center">
+                                        <p class="px-3 text-dark fs-8 mb-0 mt-1">
+                                            Free Shipping & Returns | 100% Handpicked | Assured Quality
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </span>
+                        <a href="cart.html">
+                            <span>
+                                <div class="dropdown">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <div class="dropdown-content py-3">
+                                        <div class="d-flex justify-content-center text-center ">
+                                            <p class="px-3 text-dark fs-6 mb-0">
+                                                Your Bag is empty <br>
+                                                start filling up.
+
+                                            </p>
+
+
+                                        </div>
+                                        <hr class="w-100 my-2">
+                                        <div class="d-flex justify-content-center text-center">
+                                            <p class="px-3 text-dark fs-8 mb-0 mt-1">
+                                                Free Shipping & Returns | 100% Handpicked | Assured Quality
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </span>
+                        </a>
+                        <span>
+
+                            <a href="login.html" class="text-decoration-none text-white"><i class="far fa-user"></i></a>
+                        </span>
+
+
+                    </div>
+                    <div class="d-flex d-lg-none justify-content-center text-center mx-auto align-items-baseline gap-3">
+                        <div class="h-auto">
+                            <i class="far fs-5 fa-plus-square h-100"></i>
+                        </div>
+                        <div>
+                            <i class="fas fs-5 fa-search"></i>
+                        </div>
+                        <div>
+                            <i class="far fs-5 fa-heart"></i>
+                        </div>
+                        <div>
+                            <a href="cart.html" class="text-decoration-none text-dark"><i
+                                    class="fas fs-5 fa-shopping-bag"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="ms-auto ps-3 d-lg-none" id="display1">
+                    <div class="d-flex justify-content-center text-center mx-auto align-items-baseline gap-3">
+                        <div class="h-auto">
+                            <i class="far fs-5 fa-plus-square h-100"></i>
+                        </div>
+                        <div>
+                            <i class="fas fs-5 fa-search"></i>
+                        </div>
+                        <div>
+                            <i class="far fs-5 fa-heart"></i>
+                        </div>
+                        <div>
+                            <a href="cart.html" class="text-decoration-none text-dark"><i
+                                    class="fas fs-5 fa-shopping-bag"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+    </section>
+    <section class="mt-lg-5 pt-5">
+        <div class="container">
+            <div class="text-start ">
+                <p class="mb-0 my-3 mt-lg-0 mt-4 text-gray fs-9">HomeD2C / Fashion</p>
+                <div class="row mt-2 align-items-start">
+                    <div class="col-lg-9 ps-lg-5 col-12">
+                        <div class="">
+                            <div class="row align-items-center">
+                                <div class="col-lg-2 col-12">
+                                    <div class="slider slider-nav">
+                                        <div>
+                                            <img src="assets/images/modal-1.webp" class="img-fluid" alt="">
+                                        </div>
+                                        <div>
+                                            <img src="assets/images/modal-2.webp" class="img-fluid" alt="">
+                                        </div>
+                                        <div>
+                                            <img src="assets/images/modal-3.webp" class="img-fluid" alt="">
+                                        </div>
+                                        <div>
+                                            <img src="assets/images/modal-1.webp" class="img-fluid" alt="">
+                                        </div>
+                                        <div>
+                                            <img src="assets/images/modal-2.webp" class="img-fluid" alt="">
+                                        </div>
+                                        <div>
+                                            <img src="assets/images/modal-3.webp" class="img-fluid" alt="">
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 col-12">
+                                    <div class="slider slider-single text-center">
+                                        <div class="text-center">
+                                            <img src="assets/images/modal-1.webp" class="w-75 mx-auto" alt="">
+                                        </div>
+                                        <div>
+                                            <img src="assets/images/modal-2.webp" class="w-75 mx-auto" alt="">
+                                        </div>
+                                        <div>
+                                            <img src="assets/images/modal-3.webp" class="w-75 mx-auto" alt="">
+                                        </div>
+                                        <div>
+                                            <img src="assets/images/modal-1.webp" class="w-75 mx-auto" alt="">
+                                        </div>
+                                        <div>
+                                            <img src="assets/images/modal-2.webp" class="w-75 mx-auto" alt="">
+                                        </div>
+                                        <div>
+                                            <img src="assets/images/modal-3.webp" class="w-75 mx-auto" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="mt-2 text-center">
+                                        <h5 class="fw-bold">OUR PROMISE</h5>
+                                        <p>We assure the authenticity and quality of our products</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                    <div class="col-lg-3 col-12 ">
+                        <div class="text-center w-100">
+                            <p class="mb-0 fw-bold fs-5 text-purple pointer">
+                                109 F
+                            </p>
+                            <p class="mb-0 fs-7 fw-bold">Polka-Dotted Round-Neck Dress</p>
+                            <p class="mb-0 mt-2 fw-bold">
+                                MRP₹2,199
+                            </p>
+                            <p class="mb-0 fs-10 fw-bold text-gray mt-2">
+                                Price inclusive of all taxes
+                            </p>
+
+                            <div class="d-flex justify-content-center mt-2">
+
+                                <span class="color-div">
+
+                                </span>
+
+                            </div>
+                            <p class="mb-0 fw-bold mt-2">
+                                Large (L)
+                            </p>
+                            <div class="d-flex mt-2 justify-content-center">
+
+                                <span class="color-div-2">
+                                    L
+                                </span>
+
+                            </div>
+                            <!-- <p class="mb-1 mt-2 fs-7 fw-bold">
+                                <i class="fas fa-ruler-horizontal"></i>
+                                Check Size Chart <span class="bg-orange p-1  fs-10"> NEW </span>
+                            </p> -->
+                            <div class="slider-size my-4">
+                                <div>
+                                    <span class="color-div-3" style="width: 40px !important;">
+                                        XS
+                                    </span>
+                                </div>
+                                <div>
+                                    <span class="color-div-3" style="width: 40px !important;">
+                                        S
+                                    </span>
+                                </div>
+                                <div>
+                                    <span class="color-div-3" style="width: 40px !important;">
+                                        M
+                                    </span>
+                                </div>
+                                <div>
+                                    <span class="color-div-3" style="width: 40px !important;">
+                                        L
+                                    </span>
+                                </div>
+                                <div>
+                                    <span class="color-div-3" style="width: 40px !important;">
+                                        XL
+                                    </span>
+                                </div>
+                                <div>
+                                    <span class="color-div-3" style="width: 40px !important;">
+                                        XXL
+                                    </span>
+                                </div>
+
+                            </div>
+                            <p class="text-gray fs-10 fw-bold">Compare 109 F size with other brand sizes</p>
+                            <p class="text-danger fs-9 fw-bold">Hurry, Only few items left</p>
+
+
+                        </div>
+                        <button class="btn-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Enter Pin-code To Know Estimated Delivery Date
+
+                        </button>
+                        <button class="btn-Add-bag mt-3">
+                            <i class="mx-2 fa fa-shopping-bag" aria-hidden="true"></i>
+                            <p class="mb-0">ADD TO BAG</p>
+
+                        </button>
+                        <div class="text-center mb-3">
+                            <p class="mb-0 fw-bold fs-10">
+                                HANDPICKED STYLES | ASSURED QUALITY
+                            </p>
+
+                        </div>
+                        <button class="btn-Add-W mt-3">
+                            <i class="far fa-heart mx-2"></i>
+                            <p class="mb-0">ADD TO WHITELIST</p>
+
+                        </button>
+                        <div class="mt-5">
+                            <span class="details fs-7">
+                                <p class="text-purple mb-0 fw-bolder">Product Details
+                                </p>
+                                <ul>
+                                    <li>
+                                        Machine wash
+
+                                    </li>
+                                    <li>
+                                        Rayon
+
+
+                                    </li>
+                                    <li>
+                                        Product Code: 463699002001
+                                    </li>
+                                </ul>
+                            </span>
+
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="mt-lg-5">
+                    <div class="text-center d-flex justify-content-center">
+                        <h4 class="bg-white fw-bolder">Shop More Kurtas & Kurtis</h4>
+                    </div>
+                    <span class="cus-hr margin-cus"></span>
+                    <div class="d-flex gap-4 justify-content-center boxes mt-lg-5">
+                        <span class="text-purple fw-bold pointer">
+                            All Kurtas & Kurtis
+                            <i class="fa fa-angle-right text-dark" aria-hidden="true"></i>
+                        </span>
+                        <span class="text-purple fw-bold pointer">
+                            Style : Straight
+                            <i class="fa fa-angle-right text-dark" aria-hidden="true"></i>
+                        </span>
+                        <span class="text-purple fw-bold  pointer">
+                            Style : Straight
+                            <i class="fa fa-angle-right text-dark" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="mt-lg-5">
+                    <div class="text-center d-flex justify-content-center">
+                        <h4 class="bg-white fw-bolder">Similar Styles</h4>
+                    </div>
+                    <span class="cus-hr margin-cus"></span>
+                    <div class="row mt-2  mt-lg-5">
+                        <div class="col-lg-3 col-12  ">
+                            <div class="card-inner">
+                                <div class="text-center position-r img-hover">
+                                    <img src="assets/images/modal-1.webp" class="img-fluid" alt="">
+
+                                    <p class="mb-0 hover-div">QUICK VEIW</p>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <p class="mb-0 text-purple fw-bold fs-6">YUFTA</p>
+                                    <p class="fs-8 fw-bold  mb-0">
+                                        Printed Band-Collar Straight Kurta
+
+                                    </p>
+                                    <div class="d-flex justify-content-center fw-bold align-items-center">
+                                        <p class="mb-0 mx-1 text-purple fs-6"> $120 </p>
+                                        <p class="mb-0  fs-6"> <strike>$150</strike> </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-12">
+                            <div class="card-inner">
+                                <div class="text-center position-r img-hover">
+                                    <img src="assets/images/modal-2.webp" class="img-fluid" alt="">
+
+                                    <p class="mb-0 hover-div">QUICK VEIW</p>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <p class="mb-0 text-purple fw-bold fs-6">YUFTA</p>
+                                    <p class="fs-8 fw-bold  mb-0">
+                                        Printed Band-Collar Straight Kurta
+
+                                    </p>
+                                    <div class="d-flex justify-content-center fw-bold align-items-center">
+                                        <p class="mb-0 mx-1 text-purple fs-6"> $120 </p>
+                                        <p class="mb-0  fs-6"> <strike>$150</strike> </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-12">
+                            <div class="card-inner">
+                                <div class="text-center position-r img-hover">
+                                    <img src="assets/images/modal-3.webp" class="img-fluid" alt="">
+
+                                    <p class="mb-0 hover-div">QUICK VEIW</p>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <p class="mb-0 text-purple fw-bold fs-6">YUFTA</p>
+                                    <p class="fs-8 fw-bold  mb-0">
+                                        Printed Band-Collar Straight Kurta
+
+                                    </p>
+                                    <div class="d-flex justify-content-center fw-bold align-items-center">
+                                        <p class="mb-0 mx-1 text-purple fs-6"> $120 </p>
+                                        <p class="mb-0  fs-6"> <strike>$150</strike> </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-12">
+                            <div class="card-inner">
+                                <div class="text-center position-r img-hover">
+                                    <img src="assets/images/modal-3.webp" class="img-fluid" alt="">
+
+                                    <p class="mb-0 hover-div">QUICK VEIW</p>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <p class="mb-0 text-purple fw-bold fs-6">YUFTA</p>
+                                    <p class="fs-8 fw-bold  mb-0">
+                                        Printed Band-Collar Straight Kurta
+
+                                    </p>
+                                    <div class="d-flex justify-content-center fw-bold align-items-center">
+                                        <p class="mb-0 mx-1 text-purple fs-6"> $120 </p>
+                                        <p class="mb-0  fs-6"> <strike>$150</strike> </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="mt-lg-5">
+                    <div class="text-center d-flex justify-content-center">
+                        <h4 class="bg-white fw-bolder">Recently Viewed</h4>
+                    </div>
+                    <span class="cus-hr margin-cus"></span>
+                    <div class="row mt-2  mt-lg-5">
+                        <div class="col-lg-3 col-12">
+                            <div class="card-inner">
+                                <div class="text-center position-r img-hover">
+                                    <img src="assets/images/modal-1.webp" class="img-fluid" alt="">
+
+                                    <p class="mb-0 hover-div">QUICK VEIW</p>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <p class="mb-0 text-purple fw-bold fs-6">YUFTA</p>
+                                    <p class="fs-8 fw-bold  mb-0">
+                                        Printed Band-Collar Straight Kurta
+
+                                    </p>
+                                    <div class="d-flex justify-content-center fw-bold align-items-center">
+                                        <p class="mb-0 mx-1 text-purple fs-6"> $120 </p>
+                                        <p class="mb-0  fs-6"> <strike>$150</strike> </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-12">
+                            <div class="card-inner">
+                                <div class="text-center position-r img-hover">
+                                    <img src="assets/images/modal-2.webp" class="img-fluid" alt="">
+
+                                    <p class="mb-0 hover-div">QUICK VEIW</p>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <p class="mb-0 text-purple fw-bold fs-6">YUFTA</p>
+                                    <p class="fs-8 fw-bold  mb-0">
+                                        Printed Band-Collar Straight Kurta
+
+                                    </p>
+                                    <div class="d-flex justify-content-center fw-bold align-items-center">
+                                        <p class="mb-0 mx-1 text-purple fs-6"> $120 </p>
+                                        <p class="mb-0  fs-6"> <strike>$150</strike> </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-12">
+                            <div class="card-inner">
+                                <div class="text-center position-r img-hover">
+                                    <img src="assets/images/modal-3.webp" class="img-fluid" alt="">
+
+                                    <p class="mb-0 hover-div">QUICK VEIW</p>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <p class="mb-0 text-purple fw-bold fs-6">YUFTA</p>
+                                    <p class="fs-8 fw-bold  mb-0">
+                                        Printed Band-Collar Straight Kurta
+
+                                    </p>
+                                    <div class="d-flex justify-content-center fw-bold align-items-center">
+                                        <p class="mb-0 mx-1 text-purple fs-6"> $120 </p>
+                                        <p class="mb-0  fs-6"> <strike>$150</strike> </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-12">
+                            <div class="card-inner">
+                                <div class="text-center position-r img-hover">
+                                    <img src="assets/images/modal-3.webp" class="img-fluid" alt="">
+
+                                    <p class="mb-0 hover-div">QUICK VEIW</p>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <p class="mb-0 text-purple fw-bold fs-6">YUFTA</p>
+                                    <p class="fs-8 fw-bold  mb-0">
+                                        Printed Band-Collar Straight Kurta
+
+                                    </p>
+                                    <div class="d-flex justify-content-center fw-bold align-items-center">
+                                        <p class="mb-0 mx-1 text-purple fs-6"> $120 </p>
+                                        <p class="mb-0  fs-6"> <strike>$150</strike> </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+    </section>
+    <section class="bg-light-y">
+        <div class="d-flex mini mt-4 container justify-content-between">
+            <div class="text-center">
+                <img src="assets/images/footerup/footerup-03.jpeg" class="" alt="">
+                <p class="fw-bold font_responsive">EASY EXCHANGE</p>
+
+            </div>
+            <div class="text-center">
+
+                <img src="assets/images/footerup/footerup-01.jpeg" class="" alt="">
+                <p class="fw-bold font_responsive">100% HANDPICKED</p>
+            </div>
+            <div class="text-center">
+                <img src="assets/images/footerup/footerup-02.jpeg" class="" alt="">
+                <p class="fw-bold font_responsive">
+                    ASSURED QUALITY
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="footer ">
+
+        <div>
+            <div class="footer mb-0">
+                <div class="foot container">
+                    <div class="my-3 mx-2">
+                        <p class="fw-bold">Category</p>
+                        <p class="mb-0">Graphics & Design</p>
+                        <p class="mb-0">Music & Audio</p>
+                        <p class="mb-0">Programming & Tech</p>
+                        <p class="mb-0">Digital Marketing</p>
+                        <p class="mb-0">Business</p>
+                        <p class="mb-0">Writing & Translation</p>
+
+                    </div>
+
+                    <div class="my-3 mx-2">
+                        <p class="fw-bold">Company</p>
+                        <p class="mb-0">About us</p>
+                        <p class="mb-0">Social Network</p>
+                        <p class="mb-0">Careers</p>
+                        <p class="mb-0">Contacts</p>
+                        <p class="mb-0">Partnerships</p>
+                        <p class="mb-0">Partnerships</p>
+                    </div>
+
+                    <div class="my-3 mx-2">
+                        <p class="fw-bold">Community</p>
+                        <p class="mb-0">Events</p>
+                        <p class="mb-0">Blog</p>
+                        <p class="mb-0">Forum</p>
+                        <p class="mb-0">Community Standards</p>
+                        <p class="mb-0">Become a Seller</p>
+                        <p class="mb-0">Invite a friend</p>
+                    </div>
+
+                    <div class="my-3 mx-2">
+                        <p class="fw-bold">Support</p>
+                        <p class="mb-0">Help Center</p>
+                        <p class="mb-0">Terms of service</p>
+                        <p class="mb-0">Legal</p>
+                        <p class="mb-0">Privacy Policy</p>
+                        <p class="mb-0">Legal</p>
+                        <p class="mb-0">Privacy Policy</p>
+                    </div>
+                    <div class="my-3 mx-2">
+                        <p class="fw-bold">Support</p>
+                        <p class="mb-0">Help Center</p>
+                        <p class="mb-0">Terms of service</p>
+                        <p class="mb-0">Legal</p>
+                        <p class="mb-0">Privacy Policy</p>
+                    </div>
+
+
+                </div>
+                <div class="container mt-4">
+                    <span class="cus-hr"></span>
+                    <div class="d-flex justify-content-between  pt-3 pb-2">
+                        <p class="mb-0 fw-bold">
+                            Payments Methods
+                        </p>
+                        <p class="mb-0 fw-bold">
+                            Secure systems
+
+                        </p>
+                    </div>
+                    <div class="d-flex justify-content-between flex-wrap py-0 pb-0">
+
+                        <div class="d-flex gap-4 flex-wrap">
+                            <!-- <div><img class="width_img" src="assets/images/hubspot.png" alt=""></div>
+    <div><img class="width_img" src="assets/images/airbnb.png" alt=""></div>
+    <div><img class="width_img" src="assets/images/hubspot.png" alt=""></div>
+    <div><img class="width_img" src="assets/images/airbnb.png" alt=""></div> -->
+
+                        </div>
+                        <div>
+                            <!-- <div><img class="width_img" src="assets/images/hubspot.png" alt=""></div> -->
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/function.js"></script>
+
+</body>
+
+</html>

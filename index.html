@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="shortcut icon" href="assets/images/favicon11.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <script src="https://kit.fontawesome.com/b690895109.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <title>Koovera</title>
+</head>
+
+<body>
+    <section class="header   fixed-top">
+        <div class="container-fluid  bg-white pt-3">
+            <!-- <div
+                class="container d-flex justify-content-lg-end bg-white justify-content-center align-items-center">
+                <p class="text-gary normal-font mb-0 mx-2">
+                    Sign in / Login
+                </p>
+                <img src="assets/images/playstore.png" class="img-fluid" alt="">
+            </div> -->
+
+
+        </div>
+        <nav class="navbar pt-0   navbar-expand-lg navbar-light bg-light border_bottom_izhan">
+            <div class="container-fluid  justify-content-start gap-3 align-items-end">
+                <button class="navbar-toggler toggler_11 py-0" onclick="myFunction()" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand me-0 py-0" href="index.html">
+                    <img src="./assets/images/Logo.png" class="img_fluid11" alt="">
+                </a>
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto text-center mb-2 mb-lg-0 py-lg-0 py-3">
+                        <li class="nav-item">
+                            <a class="nav-link active sans  fw-bolder" aria-current="page" href="#">MEN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sans fw-bolder" href="Details.html">WOMEN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sans fw-bolder" href="Filter.html">KIDS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sans fw-bolder" href="#">BEAUTY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sans fw-bolder" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sans fw-bolder" href="#">FOOTWEAR</a>
+                        </li>
+
+
+                    </ul>
+                    <form class="d-lg-flex d-none justify-content-center mx-lg-2">
+                        <div class="btn-search">
+                            <input class="form-control me-2" class="btn-search" type="search" placeholder="Search"
+                                aria-label="Search">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+
+                    </form>
+                    <div class="d-lg-flex d-none gap-3  justify-content-center mt-lg-0 mt-2 cart-icons">
+
+                        <span>
+
+                            <div class="dropdown">
+                                <i class="far fa-heart"></i>
+                                <div class="dropdown-content py-3">
+                                    <div class="d-flex justify-content-center text-center ">
+                                        <button class="btn btn-outline-primary w-75 border_custom_sign">Sign In</button>
+
+
+                                    </div>
+                                    <hr class="w-100 my-2">
+                                    <div class="d-flex justify-content-center text-center">
+                                        <p class="px-3 text-dark fs-8 mb-0 mt-1">
+                                            Free Shipping & Returns | 100% Handpicked | Assured Quality
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </span>
+                        <a href="cart.html">
+                            <span>
+                                <div class="dropdown">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <div class="dropdown-content py-3">
+                                        <div class="d-flex justify-content-center text-center ">
+                                            <p class="px-3 text-dark fs-6 mb-0">
+                                                Your Bag is empty <br>
+                                                start filling up.
+
+                                            </p>
+
+
+                                        </div>
+                                        <hr class="w-100 my-2">
+                                        <div class="d-flex justify-content-center text-center">
+                                            <p class="px-3 text-dark fs-8 mb-0 mt-1">
+                                                Free Shipping & Returns | 100% Handpicked | Assured Quality
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </span>
+                        </a>
+                        <span>
+
+                            <a href="login.html" class="text-decoration-none text-white"><i class="far fa-user"></i></a>
+                        </span>
+
+
+                    </div>
+                    <div class="d-flex d-lg-none justify-content-center text-center mx-auto align-items-baseline gap-3">
+                        <div class="h-auto">
+                            <i class="far fs-5 fa-plus-square h-100"></i>
+                        </div>
+                        <div>
+                            <i class="fas fs-5 fa-search"></i>
+                        </div>
+                        <div>
+                            <i class="far fs-5 fa-heart"></i>
+                        </div>
+                        <div>
+                            <a href="cart.html" class="text-decoration-none text-dark"><i
+                                    class="fas fs-5 fa-shopping-bag"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="ms-auto ps-3 d-lg-none" id="display1">
+                    <div class="d-flex justify-content-center text-center mx-auto align-items-baseline gap-3">
+                        <div class="h-auto">
+                            <i class="far fs-5 fa-plus-square h-100"></i>
+                        </div>
+                        <div>
+                            <i class="fas fs-5 fa-search"></i>
+                        </div>
+                        <div>
+                            <i class="far fs-5 fa-heart"></i>
+                        </div>
+                        <div>
+                            <a href="cart.html" class="text-decoration-none text-dark"><i
+                                    class="fas fs-5 fa-shopping-bag"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+    </section>
+    <div class="d-block mt-5 pt-4 d-lg-none">
+        <div class="slider_all22222222 text-center">
+            <div class="round_crcle bg_2men">
+                <!-- <a class="  sans  fw-bolder fs-8 text-decoration-none text-dark pb-4 mb-4" aria-current="page" href="#">MEN</a> -->
+                <img class="w-100" src="assets/images/newseaon.webp" alt="">
+            </div>
+            <div class="round_crcle bg_2men">
+                <!-- <a class="  sans  fw-bolder fs-8 text-decoration-none text-dark pb-4 mb-4" aria-current="page" href="#">MEN</a> -->
+                <img class="w-100" src="assets/images/men.webp" alt="">
+            </div>
+            <div class="round_crcle bg_2women">
+                <!-- <a class=" sans fw-bolder fs-8 text-decoration-none text-dark" href="Details.html">WOMEN</a> -->
+                <img class="w-100" src="assets/images/women.webp" alt="">
+            </div>
+            <div class="round_crcle bg_2kids">
+                <!-- <a class=" sans fw-bolder fs-8 text-decoration-none text-dark" href="Filter.html">KIDS</a> -->
+                <img class="w-100" src="assets/images/kids.webp" alt="">
+            </div>
+            <div class="round_crcle bg_2beauty">
+                <!-- <a class=" sans fw-bolder fs-8 text-decoration-none text-dark" href="#">BEAUTY</a> -->
+                <img class="w-100" src="assets/images/beauty.webp" alt="">
+            </div>
+            <div class="round_circlse">
+                <!-- <a class=" sans fw-bolder fs-8 text-decoration-none text-dark" href="#">HOME</a> -->
+                <img class="w-100" src="assets/images/home.webp" alt="">
+            </div>
+            <div class="round_circlse">
+                <!-- <a class=" sans fw-bolder fs-8 text-decoration-none text-dark " href="#">FOOTWEAR</a> -->
+                <img class="w-100" src="assets/images/footwear.webp" alt="">
+            </div>
+        </div>
+    </div>
+    <section class="banner mt-lg-5 pt-lg-5 mt-2 pt-0">
+
+        <div class="text-center flex-column d-flex justify-content-center align-items-center">
+            <h2>
+                Welcome to
+            </h2>
+            <h1>Koo<span style="color: #9989DF;">v</span>era</h1>
+            <h2>
+                Best Place
+            </h2>
+        </div>
+    </section>
+    <!-- <section class="Ads ">
+        <div class="row align-items-center ">
+            <div class="col-lg-6 col-12 px-0">
+                <img src="assets/images/banner.JPG" class="w-100 mt-2 pe-1" alt="">
+            </div>
+            <div class="col-lg-6 col-12 px-0 ">
+                <img src="assets/images/banner3.png" class="ps-1 mt-2 w-100" alt="">
+            </div>
+
+        </div>
+    </section> -->
+    <section class="slider">
+        <div class=" mt-4 ">
+
+
+            <div class="text-center ">
+                <div class="p-lg-3 p-0">
+                    <h1 class="fw-bold  text-uppercase fs_responsive">Amazing <span
+                            class="text-purple">Collection</span> </h1>
+                </div>
+                <!-- <div class="position-r">
+                    <span class="left-arrow " onclick="LeftArrow()">
+                        <i class="fa fa-angle-left"></i>
+                    </span>
+                    <span class="right-arrow" onclick="RightArrow()">
+                        <i class="fa fa-angle-right"></i>
+                    </span>
+                    <div class="slider_1  ">
+                        <div class="px-1">
+                            <img src="assets/images/01.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="px-1">
+                            <img src="assets/images/02.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="px-1">
+                            <img src="assets/images/03.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="px-1">
+                            <img src="assets/images/04.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="px-1">
+                            <img src="assets/images/05.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="px-1">
+                            <img src="assets/images/01.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="px-1">
+                            <img src="assets/images/02.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="px-1">
+                            <img src="assets/images/03.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="px-1">
+                            <img src="assets/images/04.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="px-1">
+                            <img src="assets/images/05.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="position-r mt-3">
+                    <span class="left-arrow " onclick="LeftArrow2()">
+                        <i class="fa fa-angle-left"></i>
+                    </span>
+                    <span class="right-arrow" onclick="RightArrow2()">
+                        <i class="fa fa-angle-right"></i>
+                    </span>
+                    <div class="slider_2  ">
+                        <div class="px-1">
+                            <img src="assets/images/06.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="px-1">
+                            <img src="assets/images/07.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="px-1">
+                            <img src="assets/images/08.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="px-1">
+                            <img src="assets/images/09.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="px-1">
+                            <img src="assets/images/10.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="px-1">
+                            <img src="assets/images/06.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="px-1">
+                            <img src="assets/images/07.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="px-1">
+                            <img src="assets/images/08.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="px-1">
+                            <img src="assets/images/09.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="px-1">
+                            <img src="assets/images/10.jpg" class="img-fluid" alt="">
+                        </div>
+
+
+
+                    </div>
+                </div> -->
+                <div class="">
+
+                    <div class="d-none d-lg-flex justify-content-lg-between justify-content-evenly flex-wrap ">
+                        <div class="">
+                            <img src="assets/images/01.jpg" class="width_1234" alt="">
+                        </div>
+                        <div class="">
+                            <img src="assets/images/02.jpg" class="width_1234" alt="">
+                        </div>
+                        <div class="">
+                            <img src="assets/images/03.jpg" class="width_1234" alt="">
+                        </div>
+                        <div class="">
+                            <img src="assets/images/04.jpg" class="width_1234" alt="">
+                        </div>
+                        <div class="">
+                            <img src="assets/images/05.jpg" class="width_1234" alt="">
+                        </div>
+
+                    </div>
+
+                    <div class="slider_all666 d-lg-none justify-content-lg-between justify-content-evenly flex-wrap ">
+                        <div class="">
+                            <img src="assets/images/01.jpg" class="width_1234" alt="">
+                        </div>
+                        <div class="">
+                            <img src="assets/images/02.jpg" class="width_1234" alt="">
+                        </div>
+                        <div class="">
+                            <img src="assets/images/03.jpg" class="width_1234" alt="">
+                        </div>
+                        <div class="">
+                            <img src="assets/images/04.jpg" class="width_1234" alt="">
+                        </div>
+                        <div class="">
+                            <img src="assets/images/05.jpg" class="width_1234" alt="">
+                        </div>
+
+                    </div>
+                </div>
+                <div class=" mt-lg-2">
+
+                    <div class="d-lg-flex d-none justify-content-lg-between justify-content-evenly flex-wrap">
+                        <div class="">
+                            <img src="assets/images/06.jpg" class="width_1234" alt="">
+                        </div>
+                        <div class="">
+                            <img src="assets/images/07.jpg" class="width_1234" alt="">
+                        </div>
+                        <div class="">
+                            <img src="assets/images/08.jpg" class="width_1234" alt="">
+                        </div>
+                        <div class="">
+                            <img src="assets/images/09.jpg" class="width_1234" alt="">
+                        </div>
+                        <div class="">
+                            <img src="assets/images/10.jpg" class="width_1234" alt="">
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="slider_all777 d-lg-none justify-content-lg-between justify-content-evenly flex-wrap">
+                        <div class="">
+                            <img src="assets/images/06.jpg" class="width_1234" alt="">
+                        </div>
+                        <div class="">
+                            <img src="assets/images/07.jpg" class="width_1234" alt="">
+                        </div>
+                        <div class="">
+                            <img src="assets/images/08.jpg" class="width_1234" alt="">
+                        </div>
+                        <div class="">
+                            <img src="assets/images/09.jpg" class="width_1234" alt="">
+                        </div>
+                        <div class="">
+                            <img src="assets/images/10.jpg" class="width_1234" alt="">
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="slider-banner my-5">
+        <div class="">
+            <div class="slider_all">
+                <img src="assets/images/824.jpg" class=" " alt="">
+                <img src="assets/images/9803fb25-6908-457d-bca7-138267c69d13.png" class="" alt="">
+                <img src="assets/images/standard.jpg" class=" " alt="">
+                <img src="assets/images/9803fb25-6908-457d-bca7-138267c69d13.png" class="" alt="">
+            </div>
+        </div>
+
+    </section>
+    <section>
+        <div class="pinkbg my-2 py-2 p-lg-3">
+            <!-- <img src="assets/images/usecode.JPG" class="w-100" alt=""> -->
+            <div class=" d-lg-flex d-block align-items-center color-w  ">
+                <div class="col-lg-6  col-12  d-flex justify-content-lg-end justify-content-center">
+                    <div class="text-lg-start text-center gray-line py-2">
+                        <p class="mb-0 fw-bold text-orange fs-4">
+                            Free Delivery on
+                        </p>
+                        <p class="mb-0 fw-bold  fs-4">
+                            ALL ORDERS
+                        </p>
+
+
+                        </span>
+                    </div>
+
+                </div>
+                <div
+                    class="px-3 col-lg-6 col-12 d-flex justify-content-center align-items-center justify-content-lg-start">
+                    <h1 class="mb-0 fw-bolder fs-3">
+                        USE CODE
+                    </h1>
+
+                    <button class="btn-orange mx-4"> FREEDEL</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="">
+        <div class="text-center">
+
+            <div class="p-lg-3 p-2">
+                <h1 class="fw-bold text-uppercase">Beauty <span class="text-pink  text-uppercase">and Grooming</span>
+                </h1>
+            </div>
+            <!-- <div class="position-r">
+                <span class="left-arrow " onclick="LeftArrow3()">
+                    <i class="fa fa-angle-left"></i>
+                </span>
+                <span class="right-arrow" onclick="RightArrow3()">
+                    <i class="fa fa-angle-right"></i>
+                </span>
+                <div class="slider_3  ">
+                    <div class="px-1">
+                        <img src="assets/images/01.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/02.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/03.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/04.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/05.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/01.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/02.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/03.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/04.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/05.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="position-r mt-3">
+                <span class="left-arrow " onclick="LeftArrow4()">
+                    <i class="fa fa-angle-left"></i>
+                </span>
+                <span class="right-arrow" onclick="RightArrow4()">
+                    <i class="fa fa-angle-right"></i>
+                </span>
+                <div class="slider_4  ">
+                    <div class="px-1">
+                        <img src="assets/images/06.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/07.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/08.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/09.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/10.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/06.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/07.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/08.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/09.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/10.jpg" class="img-fluid" alt="">
+                    </div>
+
+
+
+                </div>
+            </div> -->
+            <div class="">
+
+                <div class="d-flex justify-content-between flex-wrap ">
+                    <div class="">
+                        <img src="assets/images/beauty and groomSkin makeup.png" class="width_123" alt="">
+                    </div>
+                    <div class="">
+                        <img src="assets/images/beauty and groom/beauty and groom hair care.jpg" class="width_123"
+                            alt="">
+                    </div>
+                    <div class="">
+                        <img src="assets/images/beauty and groom/beauty and groom lips care.jpg" class="width_123"
+                            alt="">
+                    </div>
+                    <div class="">
+                        <img src="assets/images/beauty and groom/beauty and groomHygiene.jpg" class="width_123" alt="">
+                    </div>
+
+
+                </div>
+            </div>
+            <div class=" mt-lg-2">
+
+                <div class="d-flex justify-content-between flex-wrap">
+                    <div class="">
+                        <img src="assets/images/beauty and groom/beauty and groomEye makeup.jpg" class="width_123"
+                            alt="">
+                    </div>
+                    <div class="">
+                        <img src="assets/images/beauty and groom/beauty and groomSkin makeup.jpg" class="width_123"
+                            alt="">
+                    </div>
+                    <div class="">
+                        <img src="assets/images/beauty and groom/beauty and groomLips makeup.jpg" class="width_123"
+                            alt="">
+                    </div>
+
+
+                    <div class="">
+                        <img src="assets/images/beauty and groom/beauty and groomFragance.jpg" class="width_123" alt="">
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="slider-banner my-5">
+        <div class="">
+            <div class="slider_all">
+                <img src="assets/images/824.jpg" class=" " alt="">
+                <img src="assets/images/9803fb25-6908-457d-bca7-138267c69d13.png" class="" alt="">
+                <img src="assets/images/standard.jpg" class=" " alt="">
+                <img src="assets/images/9803fb25-6908-457d-bca7-138267c69d13.png" class="" alt="">
+            </div>
+        </div>
+
+    </section>
+    <section class="">
+        <div class="text-center">
+
+            <div class="p-lg-3 p-2">
+                <h1 class="fw-bold">KIDS<span class="text-yellow ms-3">WEAR</span> </h1>
+            </div>
+            <!-- <div class="position-r">
+                <span class="left-arrow " onclick="LeftArrow5()">
+                    <i class="fa fa-angle-left"></i>
+                </span>
+                <span class="right-arrow" onclick="RightArrow5()">
+                    <i class="fa fa-angle-right"></i>
+                </span>
+                <div class="slider_5 ">
+                    <div class="px-1">
+                        <img src="assets/images/01.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/02.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/03.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/04.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/05.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/01.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/02.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/03.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/04.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/05.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="position-r mt-3">
+                <span class="left-arrow " onclick="LeftArrow6()">
+                    <i class="fa fa-angle-left"></i>
+                </span>
+                <span class="right-arrow" onclick="RightArrow6()">
+                    <i class="fa fa-angle-right"></i>
+                </span>
+                <div class="slider_6  ">
+                    <div class="px-1">
+                        <img src="assets/images/06.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/07.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/08.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/09.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/10.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/06.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/07.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/08.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/09.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/10.jpg" class="img-fluid" alt="">
+                    </div>
+
+
+
+                </div>
+            </div> -->
+            <div class="">
+
+                <div class="d-flex justify-content-between flex-wrap ">
+                    <div class="width_123">
+                        <div class=" position-relative h-100">
+                            <div class="position_ab">
+                                <img src="assets/images/amzing collection ETHNIC WEAR.png" class="width_123" alt="">
+                            </div>
+
+                            <div class="position_ab2">
+                                <div class="bg-white width_111 rounded-3 py-2">
+                                    <h4 class="text-center mb-0 ">Ethnic Wear</h4>
+                                    <p class="text-center text_orange  mb-0">Starting ₹499</p>
+                                    <button class="button_mine btn">Shop Now +</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="width_123">
+                        <div class=" position-relative h-100">
+                            <div class="position_ab">
+                                <img src="assets/images/amzing collection Party wear.png" class="width_123" alt="">
+                            </div>
+
+                            <div class="position_ab2">
+                                <div class="bg-white width_111 rounded-3 py-2">
+                                    <h4 class="text-center mb-0 ">Party Wear</h4>
+                                    <p class="text-center text_orange  mb-0">Starting ₹499</p>
+                                    <button class="button_mine btn">Shop Now +</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="width_123">
+                        <div class=" position-relative h-100">
+                            <div class="position_ab">
+                                <img src="assets/images/amzing collectionfootwear.png" class="width_123" alt="">
+                            </div>
+
+                            <div class="position_ab2">
+                                <div class="bg-white width_111 rounded-3 py-2">
+                                    <h4 class="text-center mb-0 ">Foot Wear</h4>
+                                    <p class="text-center text_orange  mb-0">Starting ₹499</p>
+                                    <button class="button_mine btn">Shop Now +</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="width_123">
+                        <div class=" position-relative h-100">
+                            <div class="position_ab">
+                                <img src="assets/images/amzing collectionbaby wear.png" class="width_123" alt="">
+                            </div>
+
+                            <div class="position_ab2">
+                                <div class="bg-white width_111 rounded-3 py-2">
+                                    <h4 class="text-center mb-0 ">Baby Wear</h4>
+                                    <p class="text-center text_orange  mb-0">Starting ₹499</p>
+                                    <button class="button_mine btn">Shop Now +</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class=" mt-lg-2">
+
+                <div class="d-flex justify-content-between flex-wrap">
+                    <div class="width_123">
+                        <div class=" position-relative h-100">
+                            <div class="position_ab">
+                                <img src="assets/images/amzing collectionComfy bottoms.png" class="width_123" alt="">
+                            </div>
+
+                            <div class="position_ab2">
+                                <div class="bg-white width_111 rounded-3 py-2">
+                                    <h4 class="text-center mb-0 ">Comfy Bottoms</h4>
+                                    <p class="text-center text_orange  mb-0">Starting ₹499</p>
+                                    <button class="button_mine btn">Shop Now +</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="width_123">
+                        <div class=" position-relative h-100">
+                            <div class="position_ab">
+                                <img src="assets/images/amzing collectionAccessories and Toys.png" class="width_123"
+                                    alt="">
+                            </div>
+
+                            <div class="position_ab2">
+                                <div class="bg-white width_111 rounded-3 py-2">
+                                    <h4 class="text-center mb-0 ">Accessories and toys</h4>
+                                    <p class="text-center text_orange  mb-0">Starting ₹499</p>
+                                    <button class="button_mine btn">Shop Now +</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="width_123">
+                        <div class=" position-relative h-100">
+                            <div class="position_ab">
+                                <img src="assets/images/amzing collectionNight suit.png" class="width_123" alt="">
+                            </div>
+
+                            <div class="position_ab2">
+                                <div class="bg-white width_111 rounded-3 py-2">
+                                    <h4 class="text-center mb-0 ">Night Suit</h4>
+                                    <p class="text-center text_orange  mb-0">Starting ₹499</p>
+                                    <button class="button_mine btn">Shop Now +</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="width_123">
+                        <div class=" position-relative h-100">
+                            <div class="position_ab">
+                                <img src="assets/images/amzing collectionOnesies and Rompers.png" class="width_123"
+                                    alt="">
+                            </div>
+
+                            <div class="position_ab2">
+                                <div class="bg-white width_111 rounded-3 py-2">
+                                    <h4 class="text-center mb-0 ">Onesies and Rompers</h4>
+                                    <p class="text-center text_orange  mb-0">Starting ₹499</p>
+                                    <button class="button_mine btn">Shop Now +</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slider-banner my-5">
+        <div class="">
+            <div class="slider_all">
+                <img src="assets/images/824.jpg" class=" " alt="">
+                <img src="assets/images/9803fb25-6908-457d-bca7-138267c69d13.png" class="" alt="">
+                <img src="assets/images/standard.jpg" class=" " alt="">
+                <img src="assets/images/9803fb25-6908-457d-bca7-138267c69d13.png" class="" alt="">
+            </div>
+        </div>
+
+    </section>
+    <section class="">
+        <div class="text-center">
+
+            <div class="p-lg-3 p-2">
+                <h1 class="fw-bold">KITCHEN <span class="text-brown">AND HOME ESSENTIALS</span> </h1>
+            </div>
+            <!-- <div class="position-r">
+                <span class="left-arrow " onclick="LeftArrow8()">
+                    <i class="fa fa-angle-left"></i>
+                </span>
+                <span class="right-arrow" onclick="RightArrow8()">
+                    <i class="fa fa-angle-right"></i>
+                </span>
+                <div class="slider_8 ">
+                    <div class="px-1">
+                        <img src="assets/images/01.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/02.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/03.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/04.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/05.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/01.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/02.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/03.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/04.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/05.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="position-r mt-3">
+                <span class="left-arrow " onclick="LeftArrow7()">
+                    <i class="fa fa-angle-left"></i>
+                </span>
+                <span class="right-arrow" onclick="RightArrow7()">
+                    <i class="fa fa-angle-right"></i>
+                </span>
+                <div class="slider_7  ">
+                    <div class="px-1">
+                        <img src="assets/images/06.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/07.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/08.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/09.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/10.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/06.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/07.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/08.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/09.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="px-1">
+                        <img src="assets/images/10.jpg" class="img-fluid" alt="">
+                    </div>
+
+
+
+                </div>
+            </div> -->
+            <div class="">
+
+                <div class="d-flex justify-content-between flex-wrap ">
+                    <div class="">
+                        <img src="assets/images/KITCHEN/kitchen bakewear.jpg" class="width_1235 border_1" alt="">
+                    </div>
+                    <div class="">
+                        <img src="assets/images/KITCHEN/kitchen Clocks.jpg" class="width_1235 border_1" alt="">
+                    </div>
+                    <div class=" mt-lg-0 mt-2">
+                        <img src="assets/images/KITCHEN/kitchen Cousin and Cousin Cover.jpg" class="width_1235 border_1"
+                            alt="">
+                    </div>
+                    <div class="mt-lg-0 mt-2">
+                        <img src="assets/images/KITCHEN/kitchen dinner set.jpg" class="width_1235 border_1" alt="">
+                    </div>
+
+                </div>
+            </div>
+            <div class="mt-lg-2 mt-2">
+
+                <div class="d-flex justify-content-between flex-wrap">
+                    <div class="">
+                        <img src="assets/images/KITCHEN/kitchen kitchen storage.jpg" class="width_1235 border_1" alt="">
+                    </div>
+                    <div class="">
+                        <img src="assets/images/KITCHEN/kitchenAND DUNNING.jpg" class="width_1235 border_1" alt="">
+                    </div>
+                    <div class=" mt-lg-0 mt-2">
+                        <img src="assets/images/KITCHEN/kitchenBathroom.jpg" class="width_1235 border_1" alt="">
+                    </div>
+                    <div class="mt-lg-0 mt-2">
+                        <img src="assets/images/KITCHEN/kitchenFlooring.jpg" class="width_1235 border_1" alt="">
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-light-y">
+        <div class="d-flex mini mt-4 container justify-content-between">
+            <div class="text-center">
+                <img src="assets/images/footerup/footerup-03.jpeg" class="" alt="">
+                <p class="fw-bold font_responsive">EASY EXCHANGE</p>
+
+            </div>
+            <div class="text-center">
+
+                <img src="assets/images/footerup/footerup-01.jpeg" class="" alt="">
+                <p class="fw-bold font_responsive">100% HANDPICKED</p>
+            </div>
+            <div class="text-center">
+                <img src="assets/images/footerup/footerup-02.jpeg" class="" alt="">
+                <p class="fw-bold font_responsive">
+                    ASSURED QUALITY
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="footer ">
+
+        <div>
+            <div class="footer mb-0">
+                <div class="foot container">
+                    <div class="my-3 mx-2">
+                        <p class="fw-bold">Category</p>
+                        <p class="mb-0">Graphics & Design</p>
+                        <p class="mb-0">Music & Audio</p>
+                        <p class="mb-0">Programming & Tech</p>
+                        <p class="mb-0">Digital Marketing</p>
+                        <p class="mb-0">Business</p>
+                        <p class="mb-0">Writing & Translation</p>
+
+                    </div>
+
+                    <div class="my-3 mx-2">
+                        <p class="fw-bold">Company</p>
+                        <p class="mb-0">About us</p>
+                        <p class="mb-0">Social Network</p>
+                        <p class="mb-0">Careers</p>
+                        <p class="mb-0">Contacts</p>
+                        <p class="mb-0">Partnerships</p>
+                        <p class="mb-0">Partnerships</p>
+                    </div>
+
+                    <div class="my-3 mx-2">
+                        <p class="fw-bold">Community</p>
+                        <p class="mb-0">Events</p>
+                        <p class="mb-0">Blog</p>
+                        <p class="mb-0">Forum</p>
+                        <p class="mb-0">Community Standards</p>
+                        <p class="mb-0">Become a Seller</p>
+                        <p class="mb-0">Invite a friend</p>
+                    </div>
+
+                    <div class="my-3 mx-2">
+                        <p class="fw-bold">Support</p>
+                        <p class="mb-0">Help Center</p>
+                        <p class="mb-0">Terms of service</p>
+                        <p class="mb-0">Legal</p>
+                        <p class="mb-0">Privacy Policy</p>
+                        <p class="mb-0">Legal</p>
+                        <p class="mb-0">Privacy Policy</p>
+                    </div>
+                    <div class="my-3 mx-2">
+                        <p class="fw-bold">Support</p>
+                        <p class="mb-0">Help Center</p>
+                        <p class="mb-0">Terms of service</p>
+                        <p class="mb-0">Legal</p>
+                        <p class="mb-0">Privacy Policy</p>
+                    </div>
+
+
+                </div>
+                <div class="container mt-4">
+                    <span class="cus-hr"></span>
+                    <div class="d-flex justify-content-between  pt-3 pb-2">
+                        <p class="mb-0 fw-bold">
+                            Payments Methods
+                        </p>
+                        <p class="mb-0 fw-bold">
+                            Secure systems
+
+                        </p>
+                    </div>
+                    <div class="d-flex justify-content-between flex-wrap py-0 pb-0">
+
+                        <div class="d-flex gap-4 flex-wrap">
+                            <!-- <div><img class="width_img" src="assets/images/hubspot.png" alt=""></div>
+    <div><img class="width_img" src="assets/images/airbnb.png" alt=""></div>
+    <div><img class="width_img" src="assets/images/hubspot.png" alt=""></div>
+    <div><img class="width_img" src="assets/images/airbnb.png" alt=""></div> -->
+
+                        </div>
+                        <div>
+                            <!-- <div><img class="width_img" src="assets/images/hubspot.png" alt=""></div> -->
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/function.js"></script>
+
+</body>
+<script>
+    function myFunction(){
+    //    document.getElementById('display1').style.display = 'none';
+       if (document.getElementById('display1').style.display == 'none'){
+        document.getElementById('display1').style.display ='block';
+       }
+       else{
+        document.getElementById('display1').style.display = 'none';
+       }
+    }
+</script>
+</html>
