@@ -409,14 +409,16 @@ $('.slider_all666').slick({
             breakpoint: 480,
             settings: {
                 slidesToShow: 3,
+                centerPadding: '0px',
+                
                 slidesToScroll: 1
             }
         },
         {
             breakpoint: 385,
             settings: {
-                slidesToShow: 1.5,
-                centerPadding: '60px',
+                slidesToShow: 3,
+                centerPadding: '0px',
                 
                 slidesToScroll: 1
             }
@@ -456,13 +458,15 @@ $('.slider_all777').slick({
             breakpoint: 480,
             settings: {
                 slidesToShow: 3,
+                centerPadding: '60px',
+                
                 slidesToScroll: 1
             }
         },
         {
             breakpoint: 385,
             settings: {
-                slidesToShow: 1.5,
+                slidesToShow: 3 ,
                 centerPadding: '60px',
                 
                 slidesToScroll: 1
@@ -565,14 +569,29 @@ $('.slider-nav')
                 slidesToScroll: 4,
             }
         }, {
-            breakpoint: 420,
+            breakpoint: 430,
             settings: {
-                slidesToShow: 4,
+                slidesToShow: 5,
                 slidesToScroll: 4,
                 // centerPadding:"40px",
                 vertical: false,
+                infinite: true,
                 verticalSwiping: false,
-            }
+            },
+        },
+            {
+                breakpoint: 380,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 4,
+                    infinite: true,
+                    // centerPadding:"40px",
+                    vertical: false,
+                    verticalSwiping: false,
+                }
+                
+            
+            
         }]
     });
 
